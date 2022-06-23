@@ -1,0 +1,7 @@
+.btnGroup{
+    display: flex;
+    justify-content: space-around;
+}
+.delbtn{
+    margin: 2px;
+}

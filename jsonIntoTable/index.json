@@ -1,0 +1,68 @@
+[
+    {
+        "BookId": 1,
+        "Name": "Harry Potter",
+        "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+        "Author": "JK Rowlin",
+        "Price": 110,
+        "Rating": 5,
+        "Genre": "Fantasy",
+        "PublishedYear": 2006,
+        "QuantityAvailable": 20
+    },
+    {
+        "BookId": 2,
+        "Name": "Bird Box",
+        "ImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Bird_Box_2014_book_cover.jpg?20171122062219",
+        "Author": "Lorem Ipsum",
+        "Price": 100,
+        "Rating": 4,
+        "Genre": "Horror",
+        "PublishedYear": 2007,
+        "QuantityAvailable": 8
+    },
+    {
+        "BookId": 3,
+        "Name": "The Book",
+        "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+        "Author": "Lorem Ipsum",
+        "Price": 200,
+        "Rating": 4,
+        "Genre": "Horror",
+        "PublishedYear": 2001,
+        "QuantityAvailable": 12
+    },
+    {
+        "BookId": 4,
+        "Name": "Vanilla",
+        "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+        "Author": "Lorem Ipsum",
+        "Price": 320,
+        "Rating": 5,
+        "Genre": "Horror",
+        "PublishedYear": 2010,
+        "QuantityAvailable": 15
+    },
+    {
+        "BookId": 5,
+        "Name": "Russia",
+        "ImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Bird_Box_2014_book_cover.jpg?20171122062219",
+        "Author": "Lorem Ipsum",
+        "Price": 360,
+        "Rating": 4,
+        "Genre": "Horror",
+        "PublishedYear": 2000,
+        "QuantityAvailable": 6
+    },
+    {
+        "BookId": 6,
+        "Name": "Harry potter",
+        "ImageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-wNr_rVKT8dZpgIK7G1DC9wUxNzwscowfs1pEkklwbUZZH6g0",
+        "Author": "Lorem Ipsum",
+        "Price": 120,
+        "Rating": 4,
+        "Genre": "Drama",
+        "PublishedYear": 2000,
+        "QuantityAvailable": 9
+    }
+]
