@@ -1,16 +1,6 @@
 
+
 $(function () {
-    if (getFromLocalStorage() != null) {
-        createTable();
-
-    } else {
-        $.getJSON("index.json", function (data) {
-            let localData = getFromLocalStorage(data)
-            createTable(localData);
-        });
-    }
-
-});
 
 
 function getFromLocalStorage(data) {
@@ -32,11 +22,11 @@ function addToLocalStorage(data) {
 
 
 
-// $.getJSON("index.json", function (data) 
-// {
-//     let localData = getFromLocalStorage(data)
-//     createTable(localData);
-// });
+$.getJSON("index.json", function (data) 
+{
+    let localData = getFromLocalStorage(data)
+    createTable(localData);
+});
 
 
 
@@ -206,12 +196,13 @@ function deleteRow() {
         for (let i = 0; i < tempArr.length; i++) {
             if (tempArr[i]["BookId"] == id) {
 
-                delid = i + 1;//1th id se derahe hai.
+                delid = i;//1th id se derahe hai.
                 break; //todo remove if doesn't work
             }
         }
 
-        tempArr.splice(delid - 1, 1);
+        tempArr.splice(delid, 1);
+        
 
         addToLocalStorage(tempArr);
 
@@ -223,3 +214,4 @@ function deleteRow() {
 
 
 
+});
